@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2023 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="book-open" unicode="&#xe800;" d="M340 238l0-68-200 80 0 68z m0 208l0-68-200 80 0 68z m538 346q22-12 22-42l0-640q0-34-32-46l-398-160q-8-2-10-2t-5-1-5-1-5 1-5 1l-10 2-398 160q-32 12-32 46l0 640q0 30 22 42 22 16 46 6l382-154 382 154q24 10 46-6z m-478-788l0 560-320 128 0-560z m420 128l0 560-320-128 0-560z m-60 186l0-68-200-80 0 68z m0 208l0-68-200-80 0 68z" horiz-adv-x="900" />
+
+<glyph glyph-name="database" unicode="&#xe801;" d="M686 208q14 20 14-2l0-100q0-74-104-135t-246-61q-140 0-245 61t-105 135l0 100q0 8 4 10t10-8q32-52 125-86t211-34 211 34 125 86z m2 254q8 16 12 0l0-116q0-68-102-114t-248-46q-144 0-247 46t-103 114l0 116q0 20 14 0 30-46 124-75t212-29 212 29 126 75z m-338 328q144 0 247-39t103-93l0-64q0-58-103-99t-247-41-247 41-103 99l0 64q0 54 103 93t247 39z" horiz-adv-x="700" />
+
+<glyph glyph-name="signal" unicode="&#xe802;" d="M143 46v-107q0-8-5-13t-13-5h-107q-8 0-13 5t-5 13v107q0 8 5 13t13 5h107q8 0 13-5t5-13z m214 72v-179q0-8-5-13t-13-5h-107q-8 0-13 5t-5 13v179q0 8 5 13t13 5h107q8 0 13-5t5-13z m214 143v-322q0-8-5-13t-12-5h-108q-7 0-12 5t-5 13v322q0 8 5 13t12 5h108q7 0 12-5t5-13z m215 214v-536q0-8-5-13t-13-5h-107q-8 0-13 5t-5 13v536q0 8 5 13t13 5h107q8 0 13-5t5-13z m214 286v-822q0-8-5-13t-13-5h-107q-8 0-13 5t-5 13v822q0 8 5 13t13 5h107q8 0 13-5t5-13z" horiz-adv-x="1000" />
+
+<glyph glyph-name="map" unicode="&#xf279;" d="M286 850q7 0 12-5t6-13v-821q0-11-10-16l-268-143q-4-2-8-2-7 0-13 5t-5 13v821q0 11 10 16l267 143q4 2 9 2z m696 0q7 0 13-5t5-13v-821q0-11-9-16l-268-143q-4-2-9-2-7 0-12 5t-6 13v821q0 11 10 16l268 143q4 2 8 2z m-625 0q5 0 8-2l286-142q10-6 10-17v-821q0-7-6-13t-12-5q-5 0-8 2l-286 142q-10 6-10 17v821q0 7 6 13t12 5z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
