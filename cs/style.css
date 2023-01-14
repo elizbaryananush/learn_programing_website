@@ -1,75 +1,64 @@
 :root {
-    --color1: #dbdbdb8c;
-    --color2: #63687b;
-    --color3: rgb(19, 21, 82);
+    --color1: white;
+    --color2: rgb(54, 54, 73);
+    --color3: rgb(8, 8, 48);
 }
 
-
-body {
-    max-width: 1900px;
+#navbar {
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
-.container-fluid1 {
-    background-color: var(--color1);
-}
-
-#logo {
-    text-decoration: none;
-    font-size: xxx-large;
+#logo{
     color: var(--color3);
-    font-family: 'Century Gothic';
-    margin: 10px 0 18px 20px;
-    transition: all 0.2 ease;
+    font-family: "Century Gothic";
+    font-size:xx-large;
+    margin-bottom:5px;
 }
 
-#logo:hover {
-    text-transform: scale(2, 3);
+
+#collapse{
+    margin-top: 8px;
+    font-family: "Century Gothic", bold;
+    font-size: larger;
 }
 
-.a1 {
-    margin-left: 50px;
-    font-size: x-large;
-    color: var(--color2);
-    text-decoration: none;
-    float: left;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    transition: all 0.2s ease;
+#collapse2{
+    margin-right: 30px;
 }
 
-.a1:hover {
+#button1 {
+    padding-top: 10px;
     color: var(--color3);
-}
-
-.button1 {
-    color: white;
     margin-left: 0px;
     font-family: "Century Gothic";
     font-size: x-large;
     border-radius: 15px;
     width: 180px;
     height: 60px;
-    margin-top: 8px;
-    border-color: transparent;
-    background-color: rgb(67, 67, 125);
+    border-color:var(--color3);
+    background-color: transparent;
     transition: all 0.2s ease;
+    width: 200px;
 }
 
-.button1:hover {
-    /* color: var(--color2); */
+#button1:hover {
+    color: var(--color1);
     background-color: var(--color3);
 }
 
-.container-fluid2 {
-    background-image: url("../img/Elegant_Background-3.jpg");
+#header{
+    background: url("../img/Elegant_Background-3.jpg");
 }
 
+#text_header{
+    margin-top: 200px;
+    font-family: "Century Gothic", bold;
+}
 
-.container-fluid2 #text_header {
-    color: var(--color3);
-    margin: 200px auto 20px;
-    text-align: center;
-    font-family: "Arial Black";
+#header h6{
+    font-size: large;
+    font-family: "Century Gothic", bold;
+    margin: 30px auto 40px;
 }
 
 .btn_itd {
@@ -80,24 +69,19 @@ body {
     font-size: x-large;
     border-radius: 15px;
     padding-top: 10px;
-    /* width: 180px; */
     height: 60px;
     margin-top: 8px;
-    border-color: transparent;
     background-color: transparent;
     border-color: var(--color3);
     transition: all 0.2s ease;
     max-width: 200px;
     margin: 20px auto;
+    margin-bottom: 130px;
 }
 
 .btn_itd:hover {
     background-color: var(--color3);
     color: white;
-}
-
-#button2 {
-    margin-bottom: 200px;
 }
 
 .context {
@@ -110,12 +94,14 @@ body {
 }
 
 .languages {
+
     text-align: center;
     padding-top: 80px;
     padding-bottom: 80px;
 }
 
 .languages .box {
+    margin-top: 30px;
     color: var(--color3);
     background-color: rgb(255, 255, 255);
     width: 300px;
@@ -188,21 +174,21 @@ body {
     color: white;
 }
 
-#aboutus {
+ #aboutus {
     background-color: white;
     padding-left: 0;
 }
 
 #aboutus h1 {
+    font-family: "Century Gothic";
     margin-top: 50px;
 }
 
-#aboutus p {
-    padding-left: 600px;
-    padding-right: 600px;
+#aboutus h4 {
+    font-family: "Century Gothic";
     font-size: x-large;
     margin-bottom: 100px;
-}
+} 
 
 .container-fluid5 {
     background-color: var(--color2);
@@ -211,19 +197,18 @@ body {
 }
 
 .container-fluid5 h1 {
+    font-family: "Century Gothic";
     margin-top: 80px;
     font-size: xxx-large;
 }
 
 .container-fluid5 p {
-    margin-left: 297px;
-    margin-right: 290px;
-    font-size: x-large;
-    margin-bottom: 100px;
+    font-family: "Century Gothic";
+    margin-bottom: 80px;
 }
 
+
 .pictures {
-    align-items: center;
     background-color: rgb(255, 255, 255);
     height: 500px;
     margin-left: 20px;
@@ -239,42 +224,41 @@ body {
     cursor: pointer;
 }
 
-.img1 {
-    border-radius: 100px;
+#img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
-    height: 251px;
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
+    height: 50%;
+    padding-top: 50px; 
 }
 
 .pictures h3 {
+    font-family: "Century Gothic";
     color: var(--color3);
     font-size: x-large;
     margin-top: 30px;
 }
 
 .pictures p {
+    font-family: "Century Gothic";
     color: var(--color3);
-    font-size: large;
     margin-top: 30px;
-    width: 300px;
-    margin-left: 10%;
 }
+
+
 
 #button3 {
     font-family: "classic";
     border-color: transparent;
     background-color: white;
     color: var(--color3);
-    margin-bottom: 100px;
 }
 
 #button3:hover {
     color: white;
     background-color: var(--color3);
 }
-
 
 #portfolio {
     padding-bottom: 0;
@@ -327,8 +311,8 @@ body {
 
 #blog_bottom {
     color: var(--color2);
-    margin-left: 400px;
-    margin-right: 400px;
+    /* margin-left: 400px; */
+    /* margin-right: 400px; */
     font-size: x-large;
     margin-bottom: 50px;
 }
@@ -342,7 +326,7 @@ body {
     color: var(--color3);
 }
 
-.container-fluid7 {
+#information {
     /* margin-top: 0; */
     padding-top: 40px;
     background-color: #f3f3f3;
@@ -350,12 +334,12 @@ body {
 
 #networks div {
     margin-top: 20px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     margin-bottom: 20px;
 }
 
 #logo2 {
-    margin-left: 20px;
+    /* margin-left: 20px; */
     margin-bottom: 20px;
     font-family: 'Century Gothic';
 }
@@ -366,7 +350,7 @@ body {
 }
 
 #top #lang {
-    margin-top: 20px;
+    margin-top: 20px; 
     margin-bottom: 20px;
 }
 
